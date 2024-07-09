@@ -1,0 +1,180 @@
+Test 1: (with seperate for loops for initialization of C matrix)
+    -> <ijk>
+    Iter: 0 Time: 10770.627000
+    Iter: 1 Time: 6955.090000
+    Iter: 2 Time: 10681.659000
+    Iter: 3 Time: 10719.111000
+    Iter: 4 Time: 10661.145000
+    Iter: 5 Time: 10593.685000
+    Iter: 6 Time: 10611.225000
+    Iter: 7 Time: 10587.373000
+    Iter: 8 Time: 10663.071000
+    Iter: 9 Time: 10844.562000
+
+    Average time: 
+
+    -> <jik>
+    Iter: 0 Time: 40245.143000
+    Iter: 1 Time: 40101.824000
+    Iter: 2 Time: 39962.307000
+    Iter: 3 Time: 40379.449000
+    Iter: 4 Time: 40020.543000
+    Iter: 5 Time: 40185.221000
+    Iter: 6 Time: 40082.571000
+    Iter: 7 Time: 40176.774000
+    Iter: 8 Time: 40157.293000
+    Iter: 9 Time: 40179.046000
+
+    Average time: 40149.0171
+
+    -> <kij>
+    Iter: 0 Time: 1717.790000
+    Iter: 1 Time: 1665.108000
+    Iter: 2 Time: 1650.137000
+    Iter: 3 Time: 1649.887000
+    Iter: 4 Time: 1607.478000
+    Iter: 5 Time: 1655.391000
+    Iter: 6 Time: 1625.718000
+    Iter: 7 Time: 1610.809000
+    Iter: 8 Time: 1599.396000
+    Iter: 9 Time: 1928.456000
+
+    Average time: 
+
+    -> <kji>
+    Iter: 0 Time: 22619.077000
+    Iter: 1 Time: 22624.260000
+    Iter: 2 Time: 22834.118000
+    Iter: 3 Time: 22564.613000
+    Iter: 4 Time: 22448.754000
+    Iter: 5 Time: 22509.373000
+    Iter: 6 Time: 22595.094000
+    Iter: 7 Time: 22532.432000
+    Iter: 8 Time: 22554.624000
+    Iter: 9 Time: 22815.678000
+
+    Average time:
+
+    -> <ikj>
+    Iter: 0 Time: 1016.332000
+    Iter: 1 Time: 987.097000
+    Iter: 2 Time: 961.528000
+    Iter: 3 Time: 1010.140000
+    Iter: 4 Time: 961.772000
+    Iter: 5 Time: 964.370000
+    Iter: 6 Time: 1041.051000
+    Iter: 7 Time: 976.660000
+    Iter: 8 Time: 952.506000
+    Iter: 9 Time: 946.831000
+
+    Average time:
+
+    -> <jki>
+    Iter: 0 Time: 39364.292000
+    Iter: 1 Time: 39430.515000
+    Iter: 2 Time: 39384.326000
+    Iter: 3 Time: 39320.868000
+    Iter: 4 Time: 39575.844000
+    Iter: 5 Time: 39697.167000
+    Iter: 6 Time: 39935.748000
+    Iter: 7 Time: 39747.477000
+    Iter: 8 Time: 39812.467000
+    Iter: 9 Time: 39468.908000
+
+    Average time:
+
+Test 1: (with initialization of C matrix inside the existing for loops)
+    -> <ijk>
+    Iter: 0 Time: 10150.330000
+    Iter: 1 Time: 10001.624000
+    Iter: 2 Time: 10236.830000
+    Iter: 3 Time: 10170.384000
+    Iter: 4 Time: 10088.352000
+    Iter: 5 Time: 10084.883000
+    Iter: 6 Time: 10066.210000
+    Iter: 7 Time: 10191.754000
+    Iter: 8 Time: 10112.872000
+    Iter: 9 Time: 10098.216000
+
+    Average time: 
+
+    -> <jik>
+    Iter: 0 Time: 40245.143000
+    Iter: 1 Time: 40101.824000
+    Iter: 2 Time: 39962.307000
+    Iter: 3 Time: 40379.449000
+    Iter: 4 Time: 40020.543000
+    Iter: 5 Time: 40185.221000
+    Iter: 6 Time: 40082.571000
+    Iter: 7 Time: 40176.774000
+    Iter: 8 Time: 40157.293000
+    Iter: 9 Time: 40179.046000
+
+    Average time: 40149.0171
+    
+    -> <kij>
+    Iter: 0 Time: 1814.608000
+    Iter: 1 Time: 1769.676000
+    Iter: 2 Time: 1739.338000
+    Iter: 3 Time: 1772.600000
+    Iter: 4 Time: 1795.824000
+    Iter: 5 Time: 1724.920000
+    Iter: 6 Time: 1699.580000
+    Iter: 7 Time: 1676.203000
+    Iter: 8 Time: 1665.251000
+    Iter: 9 Time: 1712.074000
+
+    Average time:
+
+    -> <kji>
+    Iter: 0 Time: 89976.373000
+    Iter: 1 Time: 89843.198000
+    Iter: 2 Time: 90337.788000
+    Iter: 3 Time: 89861.264000
+    Iter: 4 Time: 89877.210000
+    Iter: 5 Time: 89755.022000
+    Iter: 6 Time: 89920.879000
+    Iter: 7 Time: 89718.097000
+    Iter: 8 Time: 89964.711000
+    Iter: 9 Time: 90076.069000
+
+    Average time:
+
+    -> <ikj>
+    Iter: 0 Time: 1498.149000
+    Iter: 1 Time: 1408.091000
+    Iter: 2 Time: 1405.348000
+    Iter: 3 Time: 1415.649000
+    Iter: 4 Time: 1404.274000
+    Iter: 5 Time: 1410.466000
+    Iter: 6 Time: 1415.012000
+    Iter: 7 Time: 1398.098000
+    Iter: 8 Time: 1406.280000
+    Iter: 9 Time: 1392.158000
+
+    Average time:
+
+    -> <jki>
+    Iter: 0 Time: 90530.552000
+    Iter: 1 Time: 90261.640000
+    Iter: 2 Time: 90353.952000
+    Iter: 3 Time: 91632.353000
+    Iter: 4 Time: 90793.882000
+    Iter: 5 Time: 90077.026000
+    Iter: 6 Time: 92830.833000
+    Iter: 7 Time: 92083.617000
+    Iter: 8 Time: 91223.791000
+    Iter: 9 Time: 91231.185000
+
+Test 2: 
+    -> <ikj>
+    Iter: 0 Time: 895.934000
+    Iter: 1 Time: 888.096000
+    Iter: 2 Time: 919.280000
+    Iter: 3 Time: 914.515000
+    Iter: 4 Time: 875.691000
+    Iter: 5 Time: 880.013000
+    Iter: 6 Time: 880.599000
+    Iter: 7 Time: 874.920000
+    Iter: 8 Time: 880.457000
+    Iter: 9 Time: 876.839000
