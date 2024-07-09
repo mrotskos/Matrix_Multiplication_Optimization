@@ -166,7 +166,7 @@ Test 1: (with initialization of C matrix inside the existing for loops)
     Iter: 8 Time: 91223.791000
     Iter: 9 Time: 91231.185000
 
-Test 2: 
+Test 2: (with seperate for loops for initialization of C matrix)
     -> <ikj>
     Iter: 0 Time: 895.934000
     Iter: 1 Time: 888.096000
